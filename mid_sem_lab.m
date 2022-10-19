@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+t=[0 1 1 2 2 3 3 4 4 5 5];
+x=[0 1 0 1 0 1 0 1 0 1 0];
+subplot(1,1,1);
+plot(t,x);
+xlabel('time');
+ylabel('amplitude');
+title('sawtooth waveform');
+grid on;

@@ -1,0 +1,16 @@
+clc;
+clear all;
+close all;
+t1=-1:0.01:0;
+t2=0:0.01:1;
+t3=1:0.01:2;
+x1=zeros(size(t1));
+x2=ones(size(t2));
+x3=zeros(size(t3));
+x=[x1 x2 x3];
+subplot(1,1,1);
+plot(x);
+xlabel('time');
+ylabel('amplitude');
+title('square wave with 25% duty cycle');
+grid on;
